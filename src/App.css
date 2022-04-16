@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.action-button{
+  background-color: #34A5DA;
+  border: none;
+  font-size: 1.1em;
+  color:white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input{
+  width: 20%;
+  margin: 0 10px 10px 0;
+  border: none;
+  border-bottom: #61dafb 2px solid;
+  text-align: center;
+}
+
+input:focus{
+  outline: none;
+  border-bottom: #34A5DA 2px solid;
+}
+
+label{
+  font-weight: bold;
+  font-size: 1.1em;
 }
